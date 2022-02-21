@@ -1,0 +1,28 @@
+{
+    "name": "hjgreen/silverstripe-laravel-mix",
+    "description": "Laravel Mix for Silverstripe",
+    "type": "silverstripe-vendormodule",
+    "license": "BSD-3-Clause",
+    "autoload": {
+        "psr-4": {
+            "HJGreen\\SilverstripeLaravelMix\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Harry Green",
+            "email": "harry@hgreen.co.uk"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8",
+        "ext-json": "*",
+        "silverstripe/framework": "^4"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.6"
+    },
+    "scripts": {
+        "lint": "phpcs src/"
+    }
+}
